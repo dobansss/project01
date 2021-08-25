@@ -306,6 +306,10 @@ setTimeout(()=>{
 }
 
 
+fetch('db.json')
+.then(data => data.json())
+.then(res => console.log(res));
+
 //API aplicaton progrmaming interface
 //DOM API
 
